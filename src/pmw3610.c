@@ -746,7 +746,7 @@ static int pmw3610_report_data(const struct device *dev) {
         y = -y;
     }
 
-    int64_t current_time = k_uptime_get();Add commentMore actions
+    int64_t current_time = k_uptime_get();
     if (data->last_remainder_time > 0) {
         int64_t elapsed = current_time - data->last_remainder_time;
         if (elapsed > 100) {
