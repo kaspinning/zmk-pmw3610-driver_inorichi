@@ -34,7 +34,7 @@ struct pixart_data {
     int16_t last_y;
 #endif
 
-#ifdef CONFIG_PMW3610_SCROLL_ACCELERATIONAdd commentMore actions
+#ifdef CONFIG_PMW3610_SCROLL_ACCELERATION
     int64_t last_scroll_time;
 #endif
 
