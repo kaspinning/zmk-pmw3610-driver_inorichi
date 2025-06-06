@@ -167,7 +167,7 @@ config PMW3610_MOVEMENT_THRESHOLD
         A higher value means more movement is required to activate the mouse layer.
         This helps prevent accidental activation during typing.
 
-config PMW3610_SCROLL_ACCELERATIONAdd commentMore actions
+config PMW3610_SCROLL_ACCELERATION
     bool "Enable scroll acceleration"
     default n
     help
