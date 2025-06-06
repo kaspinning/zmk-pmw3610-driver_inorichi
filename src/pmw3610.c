@@ -598,8 +598,7 @@ static enum pixart_input_mode get_input_mode_for_current_layer(const struct devi
     return MOVE;
 }
 
-static inline void calculate_scroll_acceleration(int16_t x, int16_t y, struct pixart_data *data,Add commentMore actions
-                                                int32_t *accel_x, int32_t *accel_y) {
+static inline void calculate_scroll_acceleration(int16_t x, int16_t y, struct pixart_data *data, int32_t *accel_x, int32_t *accel_y) {
     *accel_x = x;
     *accel_y = y;
 
